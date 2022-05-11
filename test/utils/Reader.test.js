@@ -1,8 +1,8 @@
-const Reader = require("../../lib/utils/Reader")
+const Reader = require("../../lib/utils/Reader");
 
 describe("prueba de Lectura de visual partners.json", () =>{
     test("prueba 1", () =>{
-        const leer = Reader.readJsonFile("visualpartners.json")
+        const leer = Reader.readJsonFile("visualpartners.json");
         expect(leer).toEqual([
             {
                 "id": "6264d5d89f1df827eb84bb23",
@@ -600,6 +600,6 @@ describe("prueba de Lectura de visual partners.json", () =>{
                 "previousCourses": 2,
                 "haveCertification": true
             }
-        ])
-    })
-})
+        ]);
+    });
+});
