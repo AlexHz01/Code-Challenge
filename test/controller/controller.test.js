@@ -3,7 +3,7 @@ describe("Pruebas para control de estudiantes", () =>{
     test("consult de todos los estudiantes con todos sus campos", () =>{
 
         const allstudentstrue = StudentsController.Certification(true);
-        expect(allstudentstrue).toBe(22)
+        expect(allstudentstrue.length).toBe(29)
     })
 
     test("Prueba 2 para los estudiantes con creditos mayor a 500", () =>{

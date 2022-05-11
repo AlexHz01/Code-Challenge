@@ -197,6 +197,7 @@
     "yargs-parser": "^21.0.1"
   },
   "scripts": {
+    "server": "node ./lib/server.js",
     "test": "jest"
   },
   "author": "KikeHz",
