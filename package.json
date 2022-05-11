@@ -1,7 +1,4 @@
 {
-  "devDependencies": {
-    "jest": "^26.0.0"
-  },
   "name": "code_challenge",
   "version": "1.0.0",
   "description": "Cursos de Visual Thinking API",
@@ -87,6 +84,7 @@
     "istanbul-lib-report": "^3.0.0",
     "istanbul-lib-source-maps": "^4.0.1",
     "istanbul-reports": "^3.1.4",
+    "jest": "^26.0.0",
     "jest-changed-files": "^28.0.2",
     "jest-circus": "^28.1.0",
     "jest-cli": "^28.1.0",
