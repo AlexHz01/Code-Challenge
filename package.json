@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "jest": "^28.1.0"
+    "jest": "^26.0.0"
   },
   "name": "code_challenge",
   "version": "1.0.0",
